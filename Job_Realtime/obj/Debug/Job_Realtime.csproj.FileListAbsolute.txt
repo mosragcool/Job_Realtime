@@ -1,0 +1,13 @@
+D:\Code\Job_Realtime\Job_Realtime\bin\Debug\Job_Realtime.exe.config
+D:\Code\Job_Realtime\Job_Realtime\bin\Debug\Job_Realtime.exe
+D:\Code\Job_Realtime\Job_Realtime\bin\Debug\Job_Realtime.pdb
+D:\Code\Job_Realtime\Job_Realtime\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
+D:\Code\Job_Realtime\Job_Realtime\bin\Debug\Newtonsoft.Json.dll
+D:\Code\Job_Realtime\Job_Realtime\bin\Debug\RabbitMQ.Client.dll
+D:\Code\Job_Realtime\Job_Realtime\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
+D:\Code\Job_Realtime\Job_Realtime\bin\Debug\Newtonsoft.Json.xml
+D:\Code\Job_Realtime\Job_Realtime\bin\Debug\RabbitMQ.Client.xml
+D:\Code\Job_Realtime\Job_Realtime\obj\Debug\Job_Realtime.csproj.CoreCompileInputs.cache
+D:\Code\Job_Realtime\Job_Realtime\obj\Debug\Job_Realtime.csproj.CopyComplete
+D:\Code\Job_Realtime\Job_Realtime\obj\Debug\Job_Realtime.exe
+D:\Code\Job_Realtime\Job_Realtime\obj\Debug\Job_Realtime.pdb

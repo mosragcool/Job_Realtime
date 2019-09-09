@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="DBRealtimes" Class="DBRealTimeDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=10.17.1.95;Initial Catalog=DBRealtimes;Persist Security Info=True;User ID=auto_Report" SettingsObjectName="Job_Realtime.Properties.Settings" SettingsPropertyName="DBRealtimesConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.TRN_Incremental" Member="TRN_Incrementals">
+    <Type Name="TRN_Incremental">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UpdateDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Seq" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="bu" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="interface" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="barcode" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="SKU" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Status" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Itemize" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Loc" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="AvailStock" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="ReserveStock" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="CreateDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TRN_Sales" Member="TRN_Sales">
+    <Type Name="TRN_Sale">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UpdateDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Seq" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="bu" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="interface" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="channel" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="loc" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="ReceiptDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="TicketNo" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="ReceivedNo" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="CustomerNo" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="CustomerName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="BarCode" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="SKU" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="QTY" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="PaymentType" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="TenderCode" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="NetSaleAmt" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="TotalNetSaleAmt" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="TransType" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="CreateDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TRN_logs" Member="TRN_logs">
+    <Type Name="TRN_log">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CreateDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SystemName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="MethodName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="MessageError" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

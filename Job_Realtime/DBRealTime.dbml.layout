@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DBRealTime">
+  <DataContextMoniker Name="/DBRealTimeDataContext" />
+  <nestedChildShapes>
+    <classShape Id="d20d98a8-bf1e-47c5-b31a-027d2f9594be" absoluteBounds="6.625, 1.5, 2, 3.3093082682291666">
+      <DataClassMoniker Name="/DBRealTimeDataContext/TRN_Incremental" />
+      <nestedChildShapes>
+        <elementListCompartment Id="36db8a34-614d-4ff0-aa7b-1c61456a8eca" absoluteBounds="6.64, 1.96, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1b6f5d76-ee94-413b-91b4-0c7b444ae5cb" absoluteBounds="1.375, 0.75, 2, 4.8477197265625">
+      <DataClassMoniker Name="/DBRealTimeDataContext/TRN_Sale" />
+      <nestedChildShapes>
+        <elementListCompartment Id="449cc6bc-3a83-4712-a7be-78088f74b4a4" absoluteBounds="1.3899999999999997, 1.21, 1.9700000000000002, 4.2877197265625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="85c2f606-644c-46c5-8b7a-066b96c021e6" absoluteBounds="3.75, 1.875, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/DBRealTimeDataContext/TRN_log" />
+      <nestedChildShapes>
+        <elementListCompartment Id="06155e51-286a-4ab1-aeb0-1ed5a815e556" absoluteBounds="3.765, 2.335, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
